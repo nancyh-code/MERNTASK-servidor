@@ -1,0 +1,21 @@
+{
+  "name": "mernTaskServidor",
+  "version": "1.0.0",
+  "description": "MERN API para MERN TASK",
+  "main": "index.js",
+  "author": "Nancy",
+  "license": "MIT",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^14.2.0",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
